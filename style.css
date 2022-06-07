@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(255, 246, 234);
+}
+/*The main nagivation bar*/
+.header {
+    display: flex;
+    background-color: rgb(255, 240, 222);
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    
+}
+/* Left side of nav bar*/
+.box1, .box2, .box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 253, 253);
+    height: 60px;
+    width: 80px;
+    margin-right: auto;
+    margin-left: 25px;
+    text-align: center;
+    border-radius: 30%;
+}
+/*Title of nav bar*/
+.title {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    background-color: rgb(190, 253, 253);
+    font-size: xx-large;
+}
+/*Right side of nav bar*/
+.box4, .box5, .box6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 253, 253);
+    height: 60px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: 25px;
+    text-align: center;
+    border-radius: 30%;
+
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color:sandybrown ;
+}
+
+.maincontent {
+    display: flex;
+    margin-top: 50px;
+}
+
+.maincontent img {
+    height: auto;
+    width: 600px;
+    flex:1;
+    margin: 20px;
+}
+
+.text {
+    height: auto;
+    width: 400px;
+    padding: 15px;
+    
+}
