@@ -5,6 +5,7 @@
 }
 body {
     background-color: rgb(255, 246, 234);
+    margin: 2em;
 }
 /*The main nagivation bar*/
 .header {
@@ -49,7 +50,7 @@ body {
     margin-right: 25px;
     text-align: center;
     border-radius: 30%;
-
+/*link attributes*/
 }
 a:link {
     text-decoration: none;
@@ -60,7 +61,7 @@ a:visited {
 a:hover {
     color:sandybrown ;
 }
-
+/*flex container of content on main page*/
 .content {
     display: flex;
     align-items: center;
@@ -68,7 +69,7 @@ a:hover {
     background-color: rgb(189, 255, 255);
     margin: 50px 0px;
 }
-
+/*text inside of flex container on main page*/
 .content .text {
 
     height: auto;
@@ -78,9 +79,43 @@ a:hover {
     margin: 15px;
     /*border: 1px solid black;*/
 }
-
+/*underwater image on main page*/
 .content img {
     width: 700px;
     height: auto;
     padding: 10px;
 }
+
+.northamerica {
+display: flex;
+}
+
+.box {
+    margin: 40px 0px;
+    height: 150px;
+    width: auto;
+    flex: 3;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.box7 {
+    flex: 1;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.box8 {
+    flex: 2;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    }
+
+.box9 {
+    flex: 3;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+        }
