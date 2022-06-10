@@ -67,7 +67,7 @@ a:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(189, 255, 255);
+    background-color: rgb(255, 249, 226);
     margin: 50px 0px;
 }
 /*text inside of flex container on main page*/
@@ -78,6 +78,7 @@ a:hover {
     font-weight: 900;
     font-size: 1.2em;
     margin: 15px;
+    background-color: rgb(255, 244, 221);
     /*border: 1px solid black;*/
 }
 /*underwater image on main page*/
@@ -87,21 +88,12 @@ a:hover {
     padding: 10px;
 }
 
-.northamerica {
+.maincontents {
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
 margin: 25px;
 
-}
-
-.box {
-    margin: 40px 0px;
-    height: 150px;
-    width: auto;
-    flex: 3;
-    background-color: white;
-    border: 1px solid black;
 }
 
 .box7 img {
